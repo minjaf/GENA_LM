@@ -14,7 +14,7 @@ args_params:
 
   model_cfg: "./data/configs/L12-H768-A12-V32k-preln.json"
 
-  model_cls: "downstream_tasks.expression_prediction.expression_model_final:ExpressionCounts"
+  model_cls: "downstream_tasks.expression_prediction.expression_model_final_dropout:ExpressionCounts"
 
   model_path: ${MODEL_PATH_ROOT}
 
